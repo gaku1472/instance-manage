@@ -15,8 +15,8 @@ souce/start-instance.pyとstop-instance.pyで
 Cloud Schedulerを選択し、ジョブを作成します。
 以下のように作成してください。
 
-起動ジョブ：
-　頻度：任意の時間帯
-　ターゲット：Pub/Sub
-　トピック：start-instance.pyを起動させるトピック
-　ペイロード：{"instance_name":"gce instance name", "zone":"gce instance zone"}
+起動ジョブ：  
+　頻度：任意の時間帯  
+　ターゲット：Pub/Sub  
+　トピック：start-instance.pyを起動させるトピック  
+　ペイロード：{"instance_name":"gce instance name", "zone":"gce instance zone"}  
